@@ -1,0 +1,24 @@
+🐍 Comandos Úteis para o Dia a Dia
+Aqui está uma tabelinha para você guardar:
+
+O que você quer fazer?,Comando
+Instalar uma biblioteca -- py -m pip install nome
+Remover uma biblioteca -- py -m pip uninstall nome
+Ver o que já tem instalado -- py -m pip list
+Atualizar o próprio PIP -- py -m pip install --upgrade pip
+
+🚀 O "Comando de Ouro"
+Se o comando simples pip install falhar, use sempre o caminho completo que descobrimos ser o que funciona no seu computador.
+
+O código que funcionou para você foi este:
+& C:/Users/User/AppData/Local/Programs/Python/Python314/python.exe -m pip install matplotlib
+Por que funcionou? O símbolo & avisa ao terminal para rodar o arquivo que está naquele endereço específico, e o -m pip diz ao Python para usar o instalador interno dele.
+
+🛠️ Passo a Passo para Próximas Vezes
+1.Identifique a biblioteca: Descubra o nome (ex: pandas, numpy, pygame).
+
+2.Abra o Terminal: No VS Code, use o atalho Ctrl + '.
+
+3.Tente o atalho curto primeiro: * py -m pip install nome_da_biblioteca
+
+4.Se falhar, use o "Caminho de Ouro":
